@@ -1,0 +1,19 @@
+body, .navbar, .nav-link {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Cinzel";
+    font-weight: 500;
+}
+
+body {
+    --dark-green:#123F36;
+    --light-green:#00A676;
+    --card-color:#B69779;
+    --background-color:#E0D0C1;
+    --text-color:#2A0000;
+    --star-color:#FFB921;
+    background-color: var(--background-color) !important;
+    height: 100vh;
+}
