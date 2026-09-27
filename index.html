@@ -6,16 +6,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VERANDA</title>
-    <link rel="stylesheet" href="src/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container justify-content-between">
                 <a class="navbar-brand" href="#">veranda</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -38,17 +38,50 @@
                     <a class="nav-link" href="#">LOG IN</a>
                     </li>
                 </ul>
-                <span class="navbar-text">
-                    Navbar text with an inline element
-                </span>
+                <button>
+                    button
+                </button>
                 </div>
             </div>
         </nav>
 
     </header>
     <main>
-        
+        <div class="container hero">
+            <h4>welcome</h4>
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <button>order later</button>
+        </div>
     </main>
+        <section class="greenline">
+            <div>
+                <img src="./public/images/hotcoffee.png">
+                <span>Hot Coffee</span>
+            </div>
+            <div>
+                <img src="./public/images/coldcoffee.png">
+                <span>Cold Coffee</span>
+            </div>
+            <div>
+                <img src="./public/images/cupcoffee.png">
+                <span>Cup Coffee</span>
+            </div>
+            <div>
+                <img src="./public/images/dessert.png">
+                <span>Dessert</span>
+            </div>
+        </section>
+        <section class="catalog">
+            <h2>OUR SPECIAL COFFEE</h2>
+            <div class="productcard">
+                <img src="">
+                <h3>CoffeeName</h3>
+                <p class="desc">Lorem ipsum lorem lorem something</p>
+                <p class="price">1225</p>
+                <button>Order now</button>
+            </div>
+        </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>

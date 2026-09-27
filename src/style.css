@@ -4,16 +4,152 @@ body, .navbar, .nav-link {
 
 .navbar-brand {
     font-family: "Cinzel";
-    font-weight: 500;
+    font-weight: 600;
+    font-size:50px;
 }
 
 body {
     --dark-green:#123F36;
     --light-green:#00A676;
-    --card-color:#B69779;
+    --card-color:#B69779;   
     --background-color:#E0D0C1;
     --text-color:#2A0000;
     --star-color:#FFB921;
+    --white:#F7F9F9;
+    --dark-green-transparent:#123f367f;
     background-color: var(--background-color) !important;
     height: 100vh;
+}
+
+.navbar {
+    margin:36px 5% 0 5%;
+    border-radius:15px;
+}
+
+nav {
+    background-color:var(--dark-green) !important;
+}
+
+a {
+    color:var(--white) !important;
+}
+
+.nav-link {
+    font-size:18px;
+}
+
+main {
+    /* background-image: url("public/images/image 1.png"); */
+    /* background: url(../public/images/image1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    background: no-repeat url("../public/images/image1.png");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    color:var(--white);
+}
+
+.hero h4 {
+    font-size: 20px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-family: "Cinzel";
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-right: 30%;
+    padding-top: 60px;
+    padding-bottom: 286px;
+}
+
+.hero button {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    font-size: 18px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+.greenline {
+    background-color: var(--dark-green);
+    color: var(--light-green);
+    display:flex;
+    justify-content:center;
+    padding: 48px 0 48px 0;
+    gap:200px
+}
+
+.greenline div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.greenline div img {
+    height: 60px;
+}
+.greenline div span {
+    font-size: 18px;
+}
+
+.catalog {
+
+}
+
+.catalog h2 {
+    font-weight: bold;
+    font-size: 32px;
+    display:flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.productcard {
+    background-color: var(--card-color);
+    width: 366px;
+    height: 564px;
+    border: 1px solid var(--dark-green);
+    border-radius: 16px;
+}
+
+.productcard h3 {
+    font-size: 38px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productcard button {
+    font-size:14px;
+    padding: 10px 26px;
+    color: var(--white);
+    background-color: var(--dark-green);
+    border-radius: 26px;
+    border: none;
 }
