@@ -111,7 +111,18 @@ main {
 }
 
 .catalog {
+    
+}
 
+.catalog h2 {
+    margin: 100px 0 40px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .catalog h2 {
@@ -128,16 +139,19 @@ main {
     height: 564px;
     border: 1px solid var(--dark-green);
     border-radius: 16px;
+    padding: 16px;
 }
 
 .productcard h3 {
     font-size: 38px;
     color: var(--text-color);
     font-weight: 600;
+    margin: 10px 0 16px 0;
 }
 
 .desc {
     font-size: 20px;
+    margin-bottom: 26px;
 }
 
 .price {
@@ -150,6 +164,115 @@ main {
     padding: 10px 26px;
     color: var(--white);
     background-color: var(--dark-green);
-    border-radius: 26px;
+    border-radius: 10px;
     border: none;
+}
+
+.productcard image {
+    height: 364px;
+    width: 334px;
+}
+
+.productcard div {
+    margin-bottom: 0;
+}
+
+.coffeeline {
+    background-image:url("../public/images/image 2.png");
+    height: 335px;
+    padding:80px 0 0 600px;
+    margin-top: 70px;
+}
+
+.coffeeline h2 {
+    color: var(--white);
+    font-size: 40px;
+}
+
+.coffeeline button {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    padding:16px;
+    border-radius: 26px;
+    margin-top: 24px;
+}
+
+.reviews h2 {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 56px;
+}
+
+.name {
+    color: var(--dark-green);
+}
+
+.enterpreneur {
+    color: var(--dark-green-transparent);
+}
+
+.review {
+    background-color: var(--card-color);
+    border: 2px solid var(--dark-green);
+    border-radius: 14px;
+    width: 420px; 
+    height: 210px;
+    padding: 20px 20px 28px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+.reviewHead {
+    display: flex; 
+    height: 50px;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+.reviewText {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.bigCard {
+    width:441px;
+    height: 235px;
+}
+
+.reviewCards {
+    display: flex; 
+    flex-direction: row;
+    gap:85px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    margin-top: 120px;
+}
+
+.email h2 {
+    font-size: 32px;
+    color: var(--dark-green);
+    font-weight: 600;
+}
+
+.email p {
+    font-size: 16px;
+    color: var(--dark-green);
+    font-weight: 500;
 }
