@@ -30,7 +30,10 @@ body {
 }
 
 /* ---------- Header (remove if already in style.css) ---------- */
-header { padding-top: 34px; }
+header { 
+    padding-top: 34px; 
+    position: static;
+}
 
 .navbar {
     max-width: 1366px;
@@ -248,22 +251,22 @@ header { padding-top: 34px; }
                 <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="/">HOME</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">COFFEE</a>
+                    <a class="nav-link" href="/#coffee">COFFEE</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">BAKERY</a>
+                    <a class="nav-link" href="/#bakery">BAKERY</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">SHOP</a>
+                    <a class="nav-link" href="/#shop">SHOP</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="/#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">LOG IN</a>
+                    <a class="nav-link" href="/#logIn">LOG IN</a>
                     </li>
                 </ul>
                 <a class="cart"  href="./cart.html">
@@ -282,7 +285,7 @@ header { padding-top: 34px; }
  
         <p class="cart-empty" id="cart-empty" hidden>
             Your cart is empty.
-            <a href="#">Browse the coffee menu</a>
+            <a href="/#coffee">Browse the coffee menu</a>
         </p>
  
         <section class="cart-summary" id="cart-summary" aria-label="Order summary" hidden>

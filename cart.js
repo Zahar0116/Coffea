@@ -100,4 +100,16 @@
     });
 
     render();
+
+const CheckOutButton = document.querySelector(".cart-summary__checkout")
+CheckOutButton.onclick = function () {
+    let answer = confirm("Are you sure?")
+    if (answer) {
+        alert("Thanks for buying!")
+        localStorage.clear()
+        cart = getLocalStorageItem(KEY) || [];
+        render()
+    }
+}
+
 })();
